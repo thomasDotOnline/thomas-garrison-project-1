@@ -70,9 +70,9 @@ img {
     width: 100%;
 }
 
-section {
+/* section {
     text-align: center;
-}
+} */
 /* general page styles end */
 
 
@@ -140,13 +140,27 @@ h1 {
 .content-container {
     float: left;
     width: 50%;
+    /* text-align: start; */
 }
+
+.content-container-2 {
+    float: right;
+    width: 50%;
+    /* text-align: start; */
+
+}
+
 
 .float-img {
     float: left;
     width: 50%;
 }
 
+
+.float-img-2 {
+    float: right;
+    width: 50%;
+}
 
 /* float box end  */
 
@@ -175,11 +189,13 @@ h1 {
 
 .gallery-box {
     background-color: #0f0632;
+    color: #fff;
 }
 
-.gallery-box img {
+.gallery li {
     float: left;
     width: 33.333%;
+    list-style: none;
 }
 
 /* gallery box end  */
@@ -221,6 +237,10 @@ footer nav {
 
 h3 {
     text-transform: uppercase;
+}
+
+.address {
+    line-height: 5px;
 }
 
 

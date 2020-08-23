@@ -64,15 +64,18 @@
 
     <main>
         <section class="float-box clearfix">
+            <div class="wrapper">
 
-            <div class="content-container">
-                <h2>performing line up</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quasi error voluptates blanditiis
-                    neque. Dolore, dicta optio. Dolorem at error harum, itaque labore dolor unde incidunt velit fuga
-                    fugit deleniti laudantium natus iste quo quia nihil. Expedita consectetur asperiores amet veritatis
-                    explicabo fuga, ipsum error! Laboriosam quam voluptate consectetur facere!</p>
+                <div class="content-container">
+                    <h2>performing line up</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quasi error voluptates blanditiis
+                        neque. Dolore, dicta optio. Dolorem at error harum, itaque labore dolor unde incidunt velit fuga
+                        fugit deleniti laudantium natus iste quo quia nihil. Expedita consectetur asperiores amet
+                        veritatis
+                        explicabo fuga, ipsum error! Laboriosam quam voluptate consectetur facere!</p>
 
-                <a href="#">read more</a>
+                    <a href="#">read more</a>
+                </div>
             </div>
 
             <img class="float-img" src="./styles/assets/image-2_2@2x.png" alt="A man pasionatly singing">
@@ -80,20 +83,24 @@
 
 
 
-            <img class="float-img" src="./styles/assets/image-2-copy@2x.png"
-                alt="A close up image of a saxophone being played on a stage">
 
 
-            <div class="content-container">
-                <h2>new expiriences</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quasi error voluptates
-                    blanditiis neque. Dolore, dicta optio. Dolorem at error harum, itaque labore dolor
-                    unde incidunt velit fuga fugit deleniti laudantium natus iste quo quia nihil.
-                    Expedita consectetur asperiores amet veritatis explicabo fuga, ipsum error!
-                    Laboriosam quam voluptate consectetur facere!</p>
 
-                <a href="#">read more</a>
+            <div class="wrapper">
+                <div class="content-container-2">
+
+                    <h2>new expiriences</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quasi error voluptates
+                        blanditiis neque. Dolore, dicta optio. Dolorem at error harum, itaque labore dolor
+                        unde incidunt velit fuga fugit deleniti laudantium natus iste quo quia nihil.
+                        Expedita consectetur asperiores amet veritatis explicabo fuga, ipsum error!
+                        Laboriosam quam voluptate consectetur facere!</p>
+
+                    <a href="#">read more</a>
+                </div>
             </div>
+            <img class="float-img-2" src="./styles/assets/image-2-copy@2x.png"
+                alt="A close up image of a saxophone being played on a stage">
         </section>
 
 
@@ -147,14 +154,24 @@
         </section>
 
 
-        <section class="gallery-box clearfix">
-            <h2>the gram</h2>
-            <!-- it's possible that the img tags should be in a ul>li>img -->
-            <img src="./styles/assets/image-2@2x.png"
-                alt="A crowded stadium viewed from above showing all the atendees and an illuminated stage">
-            <img src="./styles/assets/gallery-image-2@2x.png" alt="backlit smokie silloetes of a band playing on stage">
-            <img src="./styles/assets/gallery-image-3@2x.png"
-                alt="An appitising image of chicken wings on a wooden platter">
+        <section class="gallery-box">
+            <div class="wrapper">
+
+                <h2>the gram</h2>
+                <!-- it's possible that the img tags should be in a ul>li>img -->
+                <ul class="gallery clearfix">
+                    <li> <img src="./styles/assets/image-2@2x.png"
+                            alt="A crowded stadium viewed from above showing all the atendees and an illuminated stage">
+                    </li>
+                    <li><img src="./styles/assets/gallery-image-2@2x.png"
+                            alt="backlit smokie silloetes of a band playing on stage"></li>
+                    <li><img src="./styles/assets/gallery-image-3@2x.png"
+                            alt="An appitising image of chicken wings on a wooden platter"></li>
+                </ul>
+
+
+            </div>
+
         </section>
     </main>
 
@@ -176,30 +193,33 @@
             </ul>
         </nav>
         <div class="clearfix">
+<div class="wrapper address">
 
-            <div class="footer-content-container">
-
-                <h3>contact</h3>
-                <p>info@email.com | 123 - 456 - 7890</p>
-                <p>123 some road, toronto, ON</p>
-                <p>A5A 5A5, Canada</p>
-
-            </div>
-
-
-            <form action="">
-                <h3>stay updated</h3>
-                <p>Subscribe to our news letter to stay updated.</p>
-                <input class="sr-only" type="text" name="email">
-                <input type="text" name="email" placeholder="Email Address"
-                <!-- may change aria-placeholder with a lable with the class of sr-only will look up best practice -->
-                <button>submit</button>
-            </form>
-
+    <div class="footer-content-container">
+        
+        <div>
+            <h3>contact</h3>
+            <p>info@email.com | 123 - 456 - 7890</p>
+            <p>123 some road, toronto, ON</p>
+            <p>A5A 5A5, Canada</p>
         </div>
-    </footer>
+    </div>
+    
+    
+    <form action="">
+        <h3>stay updated</h3>
+        <p>Subscribe to our news letter to stay updated.</p>
+        <input class="sr-only" type="text" name="email">
+        <input type="text" name="email" placeholder="Email Address" <!-- may change aria-placeholder with a
+            lable with the class of sr-only will look up best practice -->
+            <button>submit</button>
+        </form>
+        
+    </div>
+</footer>
+</div>
 
-            <div class="copyright">copyright &copy 2019 juno college</div>
+    <div class="copyright">copyright &copy 2019 juno college</div>
 
 </body>
 
